@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Montserrat:wght@100&family=Sacramento&display=swap');
+body {
+  text-align: center;
+  padding-top: 10%;
+  background-color: rgb(188, 240, 223);
+  font-family: Montserrat;
+  text-decoration: none;
+  font-weight: 700;
+}
+.login{
+  background-color: #5ecccf;
+  max-width: 30%;
+  margin: auto;
+  padding-bottom: 30px;
+  padding-top: 1.5rem;
+  border-radius: 50px;
+  
+  
+}
+.Email {
+  display: flex;
+  
+}
+.input_email{
+  height: 20px;
+  margin-top: 10px;
+  margin-left: 10%;
+}
+.mail{
+  margin-left: 7%;
+}
+.input_password{
+  height: 20px;
+  margin-top: 10px;
+  margin-left: 26.5%;
+  text-align: right;
+}
+.pword{
+  margin-left: 7%;
+}
+
+.Password {
+  display: flex;
+}
+.bottom_container{
+  padding-top: 1.5rem;
+
+}
+
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+}
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
