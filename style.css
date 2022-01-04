@@ -151,25 +151,17 @@ h3{
 
 
 }
-.nav-bar{
-    background-color: #66BFBF;
-}
+
 li, a, button{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 1rem;
     text-decoration: none;
 }
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
-}
+
 .nav_links {
     list-style: none;
-    
-    
+
 }
 .nav_links li {
     display: inline-block;
@@ -177,11 +169,15 @@ header{
 }
 .login{
     padding-left: 90%;
-    padding-bottom: 50%;
+    display: relative;
+    padding-bottom: 30px;
 }
-.nav-bar{
-    text-align: center;
-    position: relative;
-    display: block;
+.nav-bar{ 
     height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    display: block;
+    background-color: #66BFBF
 }
