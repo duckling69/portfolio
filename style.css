@@ -168,9 +168,7 @@ li, a, button{
     padding-top: 3%;
 }
 .login{
-    padding-left: 90%;
-    display: relative;
-    padding-bottom: 30px;
+    float: right;
 }
 .nav-bar{ 
     height: 100px;
