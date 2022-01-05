@@ -54,9 +54,7 @@ h3{
     margin: 100px 0;
 
 }
-.bottom{
 
-}
 .bottom-cloud{
     position: absolute;
     left: 300px;
@@ -158,9 +156,21 @@ li, a, button{
     font-size: 1rem;
     text-decoration: none;
 }
-
+.nav-bar{ 
+    height: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 10%;
+    display: block;
+    background-color: #66BFBF
+}
 .nav_links {
     list-style: none;
+    display: flex;
+    text-align: center;
+    margin: 20px auto 20px auto;
+    margin-left: 50%;
 
 }
 .nav_links li {
@@ -168,14 +178,6 @@ li, a, button{
     padding-top: 3%;
 }
 .login{
-    float: right;
-}
-.nav-bar{ 
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
-    display: block;
-    background-color: #66BFBF
+    padding-left: 10%;
+    margin: 20px auto 20px auto;
 }
